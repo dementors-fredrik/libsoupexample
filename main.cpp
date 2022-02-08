@@ -4,7 +4,7 @@
 using namespace std;
 
 static SoupMessage *
-generate_soup_get_message(GMainLoop *loop, SoupSession *session, const char *url) {
+generate_soup_get_message(const char *url) {
   SoupMessage *msg = soup_message_new("GET", url);
   g_object_ref(msg);
   return msg;
@@ -14,7 +14,7 @@ int main(int argc, char **argv) {
   SoupSession *session = soup_session_new();
   GMainLoop *mainLoop = g_main_loop_new(nullptr, TRUE);
 
-  SoupMessage *msg = generate_soup_get_message(mainLoop, session, "https://example.com");
+  SoupMessage *msg = generate_soup_get_message("https://example.com");
 
   soup_session_queue_message(
           session, msg, [](SoupSession *session, SoupMessage *msg, gpointer usr_data) {
