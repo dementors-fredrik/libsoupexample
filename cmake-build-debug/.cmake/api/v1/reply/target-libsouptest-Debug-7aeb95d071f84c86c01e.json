@@ -11,6 +11,7 @@
 		"commands" : 
 		[
 			"add_executable",
+			"include_directories",
 			"target_include_directories"
 		],
 		"files" : 
@@ -25,13 +26,25 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 14,
+				"line" : 20,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 17,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 26,
 				"parent" : 0
 			}
 		]
@@ -52,48 +65,57 @@
 			[
 				{
 					"backtrace" : 2,
+					"path" : "/Volumes/Workspace/Projects/libsoupexample/."
+				},
+				{
+					"backtrace" : 3,
 					"isSystem" : true,
 					"path" : "/usr/local/Cellar/libffi/3.4.2/include"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"isSystem" : true,
 					"path" : "/usr/local/Cellar/libsoup@2/2.74.1/include/libsoup-2.4"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"isSystem" : true,
 					"path" : "/usr/local/Cellar/icu4c/69.1/include"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"isSystem" : true,
 					"path" : "/usr/local/Cellar/libpsl/0.21.1_3/include"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"isSystem" : true,
 					"path" : "/usr/local/Cellar/glib/2.70.3/include"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"isSystem" : true,
 					"path" : "/usr/local/Cellar/glib/2.70.3/include/glib-2.0"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"isSystem" : true,
 					"path" : "/usr/local/Cellar/glib/2.70.3/lib/glib-2.0/include"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"isSystem" : true,
 					"path" : "/usr/local/opt/gettext/include"
 				},
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
 					"isSystem" : true,
 					"path" : "/usr/local/Cellar/pcre/8.45/include"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/usr/local/Cellar/json-glib/1.6.6/include/json-glib-1.0"
 				}
 			],
 			"language" : "CXX",
@@ -126,6 +148,10 @@
 			},
 			{
 				"fragment" : "/usr/local/Cellar/libsoup@2/2.74.1/lib/libsoup-2.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/local/Cellar/json-glib/1.6.6/lib/libjson-glib-1.0.dylib",
 				"role" : "libraries"
 			},
 			{
