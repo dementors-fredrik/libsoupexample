@@ -83,14 +83,46 @@ CMakeFiles/libsouptest.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libsouptest.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Workspace/Projects/libsoupexample/main.cpp -o CMakeFiles/libsouptest.dir/main.cpp.s
 
+CMakeFiles/libsouptest.dir/Utilities.cpp.o: CMakeFiles/libsouptest.dir/flags.make
+CMakeFiles/libsouptest.dir/Utilities.cpp.o: ../Utilities.cpp
+CMakeFiles/libsouptest.dir/Utilities.cpp.o: CMakeFiles/libsouptest.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Workspace/Projects/libsoupexample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/libsouptest.dir/Utilities.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/libsouptest.dir/Utilities.cpp.o -MF CMakeFiles/libsouptest.dir/Utilities.cpp.o.d -o CMakeFiles/libsouptest.dir/Utilities.cpp.o -c /Volumes/Workspace/Projects/libsoupexample/Utilities.cpp
+
+CMakeFiles/libsouptest.dir/Utilities.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libsouptest.dir/Utilities.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Workspace/Projects/libsoupexample/Utilities.cpp > CMakeFiles/libsouptest.dir/Utilities.cpp.i
+
+CMakeFiles/libsouptest.dir/Utilities.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libsouptest.dir/Utilities.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Workspace/Projects/libsoupexample/Utilities.cpp -o CMakeFiles/libsouptest.dir/Utilities.cpp.s
+
+CMakeFiles/libsouptest.dir/jwt-tool.cpp.o: CMakeFiles/libsouptest.dir/flags.make
+CMakeFiles/libsouptest.dir/jwt-tool.cpp.o: ../jwt-tool.cpp
+CMakeFiles/libsouptest.dir/jwt-tool.cpp.o: CMakeFiles/libsouptest.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Volumes/Workspace/Projects/libsoupexample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/libsouptest.dir/jwt-tool.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/libsouptest.dir/jwt-tool.cpp.o -MF CMakeFiles/libsouptest.dir/jwt-tool.cpp.o.d -o CMakeFiles/libsouptest.dir/jwt-tool.cpp.o -c /Volumes/Workspace/Projects/libsoupexample/jwt-tool.cpp
+
+CMakeFiles/libsouptest.dir/jwt-tool.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libsouptest.dir/jwt-tool.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Volumes/Workspace/Projects/libsoupexample/jwt-tool.cpp > CMakeFiles/libsouptest.dir/jwt-tool.cpp.i
+
+CMakeFiles/libsouptest.dir/jwt-tool.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libsouptest.dir/jwt-tool.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Volumes/Workspace/Projects/libsoupexample/jwt-tool.cpp -o CMakeFiles/libsouptest.dir/jwt-tool.cpp.s
+
 # Object files for target libsouptest
 libsouptest_OBJECTS = \
-"CMakeFiles/libsouptest.dir/main.cpp.o"
+"CMakeFiles/libsouptest.dir/main.cpp.o" \
+"CMakeFiles/libsouptest.dir/Utilities.cpp.o" \
+"CMakeFiles/libsouptest.dir/jwt-tool.cpp.o"
 
 # External object files for target libsouptest
 libsouptest_EXTERNAL_OBJECTS =
 
 libsouptest: CMakeFiles/libsouptest.dir/main.cpp.o
+libsouptest: CMakeFiles/libsouptest.dir/Utilities.cpp.o
+libsouptest: CMakeFiles/libsouptest.dir/jwt-tool.cpp.o
 libsouptest: CMakeFiles/libsouptest.dir/build.make
 libsouptest: /usr/local/Cellar/libsoup@2/2.74.1/lib/libsoup-2.4.dylib
 libsouptest: /usr/local/Cellar/json-glib/1.6.6/lib/libjson-glib-1.0.dylib
@@ -98,8 +130,10 @@ libsouptest: /usr/local/Cellar/glib/2.70.3/lib/libgio-2.0.dylib
 libsouptest: /usr/local/Cellar/glib/2.70.3/lib/libgobject-2.0.dylib
 libsouptest: /usr/local/Cellar/glib/2.70.3/lib/libglib-2.0.dylib
 libsouptest: /usr/local/opt/gettext/lib/libintl.dylib
+libsouptest: /usr/local/Cellar/openssl@1.1/1.1.1m/lib/libssl.dylib
+libsouptest: /usr/local/Cellar/openssl@1.1/1.1.1m/lib/libcrypto.dylib
 libsouptest: CMakeFiles/libsouptest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Volumes/Workspace/Projects/libsoupexample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable libsouptest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Volumes/Workspace/Projects/libsoupexample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable libsouptest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libsouptest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

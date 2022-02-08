@@ -129,6 +129,54 @@ libsouptest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/libsouptest.dir/build.make CMakeFiles/libsouptest.dir/build
 .PHONY : libsouptest/fast
 
+Utilities.o: Utilities.cpp.o
+.PHONY : Utilities.o
+
+# target to build an object file
+Utilities.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libsouptest.dir/build.make CMakeFiles/libsouptest.dir/Utilities.cpp.o
+.PHONY : Utilities.cpp.o
+
+Utilities.i: Utilities.cpp.i
+.PHONY : Utilities.i
+
+# target to preprocess a source file
+Utilities.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libsouptest.dir/build.make CMakeFiles/libsouptest.dir/Utilities.cpp.i
+.PHONY : Utilities.cpp.i
+
+Utilities.s: Utilities.cpp.s
+.PHONY : Utilities.s
+
+# target to generate assembly for a file
+Utilities.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libsouptest.dir/build.make CMakeFiles/libsouptest.dir/Utilities.cpp.s
+.PHONY : Utilities.cpp.s
+
+jwt-tool.o: jwt-tool.cpp.o
+.PHONY : jwt-tool.o
+
+# target to build an object file
+jwt-tool.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libsouptest.dir/build.make CMakeFiles/libsouptest.dir/jwt-tool.cpp.o
+.PHONY : jwt-tool.cpp.o
+
+jwt-tool.i: jwt-tool.cpp.i
+.PHONY : jwt-tool.i
+
+# target to preprocess a source file
+jwt-tool.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libsouptest.dir/build.make CMakeFiles/libsouptest.dir/jwt-tool.cpp.i
+.PHONY : jwt-tool.cpp.i
+
+jwt-tool.s: jwt-tool.cpp.s
+.PHONY : jwt-tool.s
+
+# target to generate assembly for a file
+jwt-tool.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/libsouptest.dir/build.make CMakeFiles/libsouptest.dir/jwt-tool.cpp.s
+.PHONY : jwt-tool.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +210,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... libsouptest"
+	@echo "... Utilities.o"
+	@echo "... Utilities.i"
+	@echo "... Utilities.s"
+	@echo "... jwt-tool.o"
+	@echo "... jwt-tool.i"
+	@echo "... jwt-tool.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

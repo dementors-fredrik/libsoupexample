@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Volumes/Workspace/Projects/libsoupexample/Utilities.cpp" "CMakeFiles/libsouptest.dir/Utilities.cpp.o" "gcc" "CMakeFiles/libsouptest.dir/Utilities.cpp.o.d"
+  "/Volumes/Workspace/Projects/libsoupexample/jwt-tool.cpp" "CMakeFiles/libsouptest.dir/jwt-tool.cpp.o" "gcc" "CMakeFiles/libsouptest.dir/jwt-tool.cpp.o.d"
   "/Volumes/Workspace/Projects/libsoupexample/main.cpp" "CMakeFiles/libsouptest.dir/main.cpp.o" "gcc" "CMakeFiles/libsouptest.dir/main.cpp.o.d"
   )
 

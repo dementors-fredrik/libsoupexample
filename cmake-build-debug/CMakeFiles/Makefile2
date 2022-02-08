@@ -81,12 +81,12 @@ clean: CMakeFiles/libsouptest.dir/clean
 CMakeFiles/libsouptest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/libsouptest.dir/build.make CMakeFiles/libsouptest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/libsouptest.dir/build.make CMakeFiles/libsouptest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Volumes/Workspace/Projects/libsoupexample/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target libsouptest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Volumes/Workspace/Projects/libsoupexample/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target libsouptest"
 .PHONY : CMakeFiles/libsouptest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/libsouptest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/Workspace/Projects/libsoupexample/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/Workspace/Projects/libsoupexample/cmake-build-debug/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/libsouptest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/Workspace/Projects/libsoupexample/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/libsouptest.dir/rule
